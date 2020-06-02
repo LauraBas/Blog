@@ -1,5 +1,5 @@
 .nav {
-  background-color: mediumvioletred;
+  background-color: cadetblue;
   width: 100%;
 }
 
@@ -14,10 +14,81 @@
   justify-content: left;
 }
 
-a {
+.title {
   display: block;
   padding: 15px;
   color: antiquewhite;
   font-size: 30px;
   text-decoration: none;
 }
+
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 8px;
+  color: cadetblue;
+}
+
+#sign {
+  text-align: center;
+  font-size: 16pt;
+  font-family: cursive;
+  color: cadetblue;
+}
+
+h2 {
+  text-align: left;
+  font-family: sans-serif;
+  color: cadetblue;
+}
+
+.project-tile {
+  display: inline-grid;
+  padding: 10px;
+
+}
+
+#clock {
+  align-items: center;
+  height: 250px;
+
+
+}
+
+#calculadora {
+  align-items: center;
+  height: 250px;
+}
+
+p {
+  font-family: sans-serif;
+  color: cadetblue;
+  font-size: 12pt;
+  font-weight: inherit;
+}
+
+.contact-links {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+}
+.contactme {
+  color: antiquewhite;
+ margin-left: 20px;
+
+}
+#chau {
+  color: cadetblue;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+
+/* #me{
+  width: 80px;
+  border-radius: 50%;
+  align-self: center;
+}*/
