@@ -1,23 +1,23 @@
 .nav {
   background-color: mediumvioletred;
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
+}
 
+.nav-list {
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
 }
 
 .list {
   display: inline-block;
   justify-content: left;
 }
-a{
-  font-family: "Al Tarikh";
-  font-size: 30px;
-  color: antiquewhite;
+
+a {
+  display: block;
   padding: 15px;
+  color: antiquewhite;
+  font-size: 30px;
   text-decoration: none;
 }
-
