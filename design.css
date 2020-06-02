@@ -1,0 +1,23 @@
+.nav {
+  background-color: mediumvioletred;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.list {
+  display: inline-block;
+  justify-content: left;
+}
+a{
+  font-family: "Al Tarikh";
+  font-size: 30px;
+  color: antiquewhite;
+  padding: 15px;
+  text-decoration: none;
+}
+
