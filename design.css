@@ -89,18 +89,17 @@ p {
   width: 172px;
   height: 221px;
   object-fit: unset;
-  transition: opacity;
 }
 
 
-/* #me{
-  width: 80px;
-  border-radius: 50%;
-  align-self: center;
-}*/
+
 #image-box {
   display: flex;
   justify-content: flex-start;
   align-items: normal;
   padding: inherit;
+}
+
+#quotes {
+  width: 300px;
 }
