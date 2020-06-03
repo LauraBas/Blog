@@ -18,7 +18,7 @@
   display: block;
   padding: 15px;
   color: antiquewhite;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
 }
 
@@ -49,17 +49,6 @@ h2 {
 
 }
 
-#clock {
-  align-items: center;
-  height: 250px;
-
-
-}
-
-#calculadora {
-  align-items: center;
-  height: 250px;
-}
 
 p {
   font-family: sans-serif;
@@ -73,11 +62,13 @@ p {
   display: flex;
   justify-content: center;
 }
+
 .contactme {
   color: antiquewhite;
- margin-left: 20px;
+  margin-left: 20px;
 
 }
+
 #chau {
   color: cadetblue;
   font-family: cursive;
@@ -86,9 +77,30 @@ p {
 
 }
 
+#clock {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition-property: opacity, left;
+  transition-duration: 3s, 5s;
+}
+
+#calculadora {
+  width: 172px;
+  height: 221px;
+  object-fit: unset;
+  transition: opacity;
+}
+
 
 /* #me{
   width: 80px;
   border-radius: 50%;
   align-self: center;
 }*/
+#image-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: normal;
+  padding: inherit;
+}
