@@ -98,16 +98,27 @@ p {
   align-items: normal;
   padding: inherit;
   overflow-x: scroll;
+  background-color: #f6f3ea;
+
 }
+::-webkit-scrollbar {
+      width: 15px;
+}
+::-webkit-scrollbar-thumb {
+      background-color: darkkhaki;
+}
+
 
 #quotes {
   width: 300px;
 }
-#drum{
+
+#drum {
   width: 200px;
   height: 200px;
 }
+
 #rock {
-   width: 230px;
+  width: 230px;
   height: 230px;
 }
