@@ -79,7 +79,7 @@ p {
 
 #clock {
   width: 200px;
-  height: 200px;
+  height: 215px;
   object-fit: cover;
   transition-property: opacity, left;
   transition-duration: 3s, 5s;
