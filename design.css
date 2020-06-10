@@ -122,3 +122,12 @@ p {
   width: 230px;
   height: 230px;
 }
+#books{
+  height: 230px;
+  box-shadow: 7px 7px lightgrey;
+}
+
+#quizz {
+   width: 250px;
+   height: 250px;
+}
