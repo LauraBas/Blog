@@ -55,12 +55,14 @@ p {
   color: cadetblue;
   font-size: 12pt;
   font-weight: inherit;
+  text-align: center;
 }
 
 .contact-links {
   background-color: cadetblue;
   display: flex;
   justify-content: center;
+  margin: 1px;
 }
 
 .contactme {
@@ -83,12 +85,14 @@ p {
   object-fit: cover;
   transition-property: opacity, left;
   transition-duration: 3s, 5s;
+   box-shadow: 7px 7px 11px 1px grey;
 }
 
 #calculadora {
   width: 172px;
   height: 221px;
   object-fit: unset;
+   box-shadow: 7px 7px 11px 1px grey;
 }
 
 
@@ -101,34 +105,48 @@ p {
   background-color: #f6f3ea;
 
 }
+
 ::-webkit-scrollbar {
-      width: 15px;
+  width: 15px;
+  height: 7px;
 }
+
 ::-webkit-scrollbar-thumb {
-      background-color: darkkhaki;
+  background-color: darkkhaki;
 }
 
 
 #quotes {
   width: 300px;
+   box-shadow: 7px 7px 11px 1px grey;
 }
 
 #drum {
   width: 200px;
   height: 200px;
+
 }
 
 #rock {
   width: 230px;
   height: 230px;
+
 }
-#books{
+
+#books {
   height: 230px;
-  box-shadow: 7px 7px lightgrey;
+  box-shadow: 7px 7px 8px 1px grey;
 }
 
 #quizz {
-   width: 250px;
-   height: 250px;
-  box-shadow: 5px 5px lightgrey;
+  width: 250px;
+  height: 250px;
+  box-shadow: 7px 7px 11px 1px grey;
+}
+
+#trellau {
+
+  height: 180px;
+  box-shadow:7px 7px 11px 1px grey;
+
 }
