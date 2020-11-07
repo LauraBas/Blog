@@ -71,13 +71,6 @@ p {
 
 }
 
-#chau {
-  color: cadetblue;
-  font-family: cursive;
-  text-align: center;
-  margin-top: 5px;
-
-}
 
 #clock {
   width: 200px;
@@ -149,4 +142,7 @@ p {
   height: 180px;
   box-shadow:7px 7px 11px 1px grey;
 
+}
+#containerAll{
+   height: 83vh;
 }
